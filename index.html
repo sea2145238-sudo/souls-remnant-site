@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Soul's Remnant</title>
+  <style>
+    body { background:#000; color:#fff; font-family:sans-serif; margin:0; padding:20px; }
+    .post { border-bottom:1px solid #444; padding:20px 0; }
+    .post img { max-width:100%; display:block; margin-bottom:10px; }
+    .post-title { font-size:1.5rem; margin:0 0 5px; }
+    .post-date { font-size:0.9rem; color:#aaa; margin-bottom:10px; }
+  </style>
+</head>
+<body>
+  <h1 id="siteTitle"></h1>
+  <h3 id="subtitle"></h3>
+  <p id="latest"></p>
+  <p id="updated"></p>
+
+  <div id="posts"></div>
+
+  <script>
+    async function loadData() {
+      const res = await fetch("data.json");
+      const data = await res.json();
+
+      document.getElementById("siteTitle").innerText = data.siteTitle;
+      document.getElementById("subtitle").innerText = data.subtitle;
+      document.getElementById("latest").innerText = "Latest Update: " + data.latestUpdate;
+      document.getElementById("updated").innerText = "Last Updated: " + data.lastUpdated;
+
+      const postsDiv = document.getElementById("posts");
+      postsDiv.innerHTML = data.posts.map(post => `
+        <div class="post">
+          ${post.image ? `<img src="${post.image}" alt="${post.title}">` : ""}
+          <h2 class="post-title">${post.title}</h2>
+          <div class="post-date">${post.date}</div>
+          <p>${post.content}</p>
+        </div>
+      `).join("");
+    }
+
+    loadData();
+  </script>
+</body>

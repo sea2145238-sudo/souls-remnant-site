@@ -1,0 +1,31 @@
+{
+  "siteTitle": "Soul's Remnant",
+  "subtitle": "A story of echoes, memory, and fate",
+
+  "latestUpdate": "Chapter 3 released!",
+  "lastUpdated": "2026-10-07",
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "Prologue",
+      "date": "2026-09-20",
+      "image": "images/prologue.jpg",
+      "content": "Where the echoes begin."
+    },
+    {
+      "id": 2,
+      "title": "Chapter 1: The Awakening",
+      "date": "2026-09-28",
+      "image": "images/ch1.jpg",
+      "content": "The first step into the unknown."
+    },
+    {
+      "id": 3,
+      "title": "Chapter 2: The Shattered Path",
+      "date": "2026-10-07",
+      "image": "images/ch2.jpg",
+      "content": "Fragments of truth emerge."
+    }
+  ]
+}
