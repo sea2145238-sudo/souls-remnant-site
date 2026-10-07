@@ -10,7 +10,8 @@ body { background:#000; color:#fff; font-family:sans-serif; margin:0; padding:20
 	border:0px;
 	border-top:1px solid white;
 	border-bottom:1px solid white;
-	height: 50vw
+	height: 50vw;
+	background-color:#161717
 }
 .minibar{
 	position:fixed;
