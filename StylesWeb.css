@@ -39,7 +39,6 @@ a {
 	position:auto;
 	text-decoration:none;
 	color:white;
-	z-index:1
 	
 }
 .main{
@@ -48,8 +47,9 @@ a {
 	
 }
 .responsive  {
-	width:100%;
+	width:90%;
 	height:auto;
+	padding-left: 5%
 	
 }
 h1{
