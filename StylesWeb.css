@@ -58,7 +58,7 @@ a {
 #miniline {
 	display: block;
     color: gray;
-	padding-right: 2vw;
+	margin-right: 2vw;
     unicode-bidi: isolate;
     border-style: inset;
     border-width: 1px
