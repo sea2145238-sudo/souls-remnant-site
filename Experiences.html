@@ -40,7 +40,7 @@
       const postsDiv = document.getElementById("posts");
       postsDiv.innerHTML = data.posts.map(post => `
         <div class="post">
-          ${post.image ? `<img src="${post.image}" alt="${post.title}">` : ""}
+          ${post.image ? `<img src="${post.image}" alt="${post.title}" width="80%" height="auto">` : ""}
           <h2 class="post-title">${post.title}</h2>
           <div class="post-date">${post.date}</div>
           <p>${post.content}</p>
