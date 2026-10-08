@@ -2,30 +2,31 @@
   "siteTitle": "Soul's Remnant",
   "subtitle": "A story of echoes, memory, and fate",
 
-  "latestUpdate": "Chapter 3 released!",
+  "latestUpdate": "Welcome!",
   "lastUpdated": "2026-10-07",
 
   "posts": [
     {
       "id": 1,
-      "title": "Prologue",
-      "date": "2026-09-20",
-      "image": "images/prologue.jpg",
-      "content": "Where the echoes begin."
+      "title": "Welcome!",
+      "date": "2026-10-7",
+      "image": "images/background.png",
+      "content": "Howdy! I created this website to blog my journey through <b>Soul's Remnant</b>! Stay tuned for more update, along with
+      screenshots of my gameplay!"
     },
     {
       "id": 2,
-      "title": "Chapter 1: The Awakening",
-      "date": "2026-09-28",
-      "image": "images/ch1.jpg",
-      "content": "The first step into the unknown."
+      "title": "",
+      "date": "",
+      "image": "",
+      "content": ""
     },
     {
       "id": 3,
-      "title": "Chapter 2: The Shattered Path",
-      "date": "2026-10-07",
-      "image": "images/ch2.jpg",
-      "content": "Fragments of truth emerge."
+      "title": "",
+      "date": "",
+      "image": "",
+      "content": ""
     }
   ]
 }
