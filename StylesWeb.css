@@ -55,6 +55,14 @@ a {
 	padding-left: 5%
 	
 }
+.miniline {
+	display: block;
+    color: gray;
+	padding-right:8px;
+    unicode-bidi: isolate;
+    border-style: inset;
+    border-width: 1px
+ }
 h1{
 	font:3vw 'Pixelify Sans'
 }
