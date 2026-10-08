@@ -55,10 +55,10 @@ a {
 	padding-left: 5%
 	
 }
-.miniline {
+#miniline {
 	display: block;
     color: gray;
-	padding-right:8px;
+	padding-right: 2vw;
     unicode-bidi: isolate;
     border-style: inset;
     border-width: 1px
