@@ -1,5 +1,6 @@
 html{
-	background-color: black
+	background-color: black;
+	padding: 0.05wv
 }
 body {font-family:'Pixelify Sans'; margin:0; padding:0px;}
     .post { border-bottom:1px solid #444; padding:20px 0; }
