@@ -20,6 +20,21 @@
 </div>
 	<div class="main">
 <body bgcolor="black">
+		<script>
+		function isPlaying(audio) {
+		return !audio.paused; // true if not paused
+		}
+		const audio = new Audio("Quest Master.mp3");
+		document.addEventListener("click", () => {
+		
+		if (isPlaying(audio)) {
+			console.log("Audio is playing");
+		} else {
+			audio.loop = true;
+			audio.play();
+		}
+	});
+	</script>
   <h1 id="siteTitle"></h1>
   <h3 id="subtitle"></h3>
 <hr id="miniline">
