@@ -7,18 +7,18 @@
 
   "posts": [
     {
-      "id": 2,
-      "title": "Welcome!",
-      "date": "2026-10-7",
-      "image": "images/background.png",
-      "content": "Howdy! I created this website to blog my journey through <b>Soul's Remnant</b>! Stay tuned for more updates, along with screenshots of my gameplay!"
-    },
-    {
       "id":1,
       "title":"Just Playing Games",
       "date":"2026-10-08",
       "image":"images/image2.png",
       "content":"Just playing the Abyss Trial, with me bestie CRITUS. We died on floor 49, because of the boss having 16,000,000 HP TwT."
+    },
+    {
+      "id": 2,
+      "title": "Welcome!",
+      "date": "2026-10-7",
+      "image": "images/background.png",
+      "content": "Howdy! I created this website to blog my journey through <b>Soul's Remnant</b>! Stay tuned for more updates, along with screenshots of my gameplay!"
     }
   ]
 }
