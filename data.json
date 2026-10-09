@@ -2,23 +2,23 @@
   "siteTitle": "Soul's Remnant",
   "subtitle": "A story of echoes, memory, and fate",
 
-  "latestUpdate": "Welcome!",
-  "lastUpdated": "2026-10-07",
+  "latestUpdate": "Just Playing Games",
+  "lastUpdated": "2026-10-08",
 
   "posts": [
     {
-      "id": 1,
+      "id": 2,
       "title": "Welcome!",
       "date": "2026-10-7",
       "image": "images/background.png",
       "content": "Howdy! I created this website to blog my journey through <b>Soul's Remnant</b>! Stay tuned for more updates, along with screenshots of my gameplay!"
     },
     {
-      "id":2,
-      "title":"",
-      "date":"",
-      "image":"",
-      "content":""
+      "id":1,
+      "title":"Just Playing Games",
+      "date":"2026-10-08",
+      "image":"images/image2.png",
+      "content":"Just playing the Abyss Trial, with me bestie CRITUS. We died on floor 49, because of the boss having 16,000,000 HP TwT."
     }
   ]
 }
