@@ -19,6 +19,21 @@
 </div>
 <div class="main">
 	<body bgcolor= "black">
+		<script>
+		function isPlaying(audio) {
+		return !audio.paused; 
+		}
+		const audio = new Audio("images/Our New Home.mp3");
+		document.addEventListener("click", () => {
+		
+		if (isPlaying(audio)) {
+			console.log("Audio is playing");
+		} else {
+			audio.loop = true;
+			audio.play();
+		}
+	});
+	</script>
 		<h1 id="text-main">Soul's Remnant</h1>
 		<p>Soul's Remnant. A 2-D, free to play MMO that is very underated. It is a 2-D platforming based RPG, with a pixel-art aesthetic. This game has a lot of negative reviews, but don't be fooled. Those "reviews" are by people who got banned from the game for being rude. I have a lot of fond memories over this game. Everyone who I spoke to in-game was very kind, and the community is very helpful to new players.</p>
 	
