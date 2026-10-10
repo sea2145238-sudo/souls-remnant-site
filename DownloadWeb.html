@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" type="image/png" href="images/icon.png">
+	<link rel="icon" type="image/jpg" href="images/Kmitty.jpg">
 	<title>Soul's Remnant - Blog</title>
 	<link rel="stylesheet" href="StylesWeb.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap">
@@ -19,6 +19,21 @@
 </div>
 <div class="main">
 	<body bgcolor= "black">
+		<script>
+		function isPlaying(audio) {
+		return !audio.paused; 
+		}
+		const audio = new Audio("images/Kmitty.mp3");
+		document.addEventListener("click", () => {
+		
+		if (isPlaying(audio)) {
+			console.log("Audio is playing");
+		} else {
+			audio.loop = true;
+			audio.play();
+		}
+	});
+	</script>
 		<h1 id="text-main">Soul's Remnant: Download For Free!</h1>
 		<iframe src="https://store.steampowered.com/widget/3451980/" frameborder="0" width="646" height="190"></iframe>
 	
