@@ -2,19 +2,26 @@
   "siteTitle": "Soul's Remnant",
   "subtitle": "A story of echoes, memory, and fate",
 
-  "latestUpdate": "Just Playing Games",
-  "lastUpdated": "2026-10-08",
+  "latestUpdate": 'Fixing My "Splelbade"',
+  "lastUpdated": "2026-10-09",
 
   "posts": [
     {
       "id":1,
+      "title": 'Fixing My "Splelbade"',
+      "date":"2026-10-09",
+      "image":"images/image3.png",
+      "content":"Understandable? Not really. Do I want to try and understand it, this divine knowledge coming from the almighty Xan? NOPE."
+    },
+    {
+      "id":2,
       "title":"Just Playing Games",
       "date":"2026-10-08",
       "image":"images/image2.png",
       "content":"Just playing the Abyss Trial, with me bestie CRITUS. We died on floor 49, because of the boss having 16,000,000 HP TwT."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Welcome!",
       "date": "2026-10-7",
       "image": "images/background.png",
