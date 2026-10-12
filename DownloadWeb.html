@@ -34,6 +34,19 @@
 		}
 	});
 	</script>
+		<script>
+	const id1 = document.getElementById("main");
+	const id2 = document.getElementById("exp");
+	const id3 = document.getElementById("download");
+	let path  =  window.location.pathname;
+	let filename1 = path.substring(path.lastIndexOf('/') + 1);
+	console.log(`${filename1}`)
+	if (filename1 = "DownloadWeb.html"){
+		id3.style.backgroundColor = '#9E9A9A';
+		console.log("is true")
+	}
+	</script>
+	
 		<h1 id="text-main">Soul's Remnant: Download For Free!</h1>
 		<iframe src="https://store.steampowered.com/widget/3451980/" frameborder="0" width="646" height="190"></iframe>
 	
