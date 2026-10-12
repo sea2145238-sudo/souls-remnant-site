@@ -34,6 +34,18 @@
 		}
 	});
 	</script>
+		<script>
+	const id1 = document.getElementById("main");
+	const id2 = document.getElementById("exp");
+	const id3 = document.getElementById("download");
+	let path  =  window.location.pathname;
+	let filename1 = path.substring(path.lastIndexOf('/') + 1);
+	console.log(`${filename1}`)
+	if (filename1 = "MainPage.html"){
+		id1.style.backgroundColor = '#9E9A9A';
+		console.log("is true")
+	}
+	</script>
 	
 		<h1 id="text-main">Soul's Remnant</h1>
 		<p>Soul's Remnant. A 2-D, free to play MMO that is very underated.</p>
