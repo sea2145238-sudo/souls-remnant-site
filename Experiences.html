@@ -35,6 +35,19 @@
 		}
 	});
 	</script>
+	<script>
+	const id1 = document.getElementById("main");
+	const id2 = document.getElementById("exp");
+	const id3 = document.getElementById("download");
+	let path  =  window.location.pathname;
+	let filename1 = path.substring(path.lastIndexOf('/') + 1);
+	console.log(`${filename1}`)
+	if (filename1 = "Experiences.html"){
+		id2.style.backgroundColor = '#9E9A9A';
+		console.log("is true")
+	}
+	</script>
+	
   <h1 id="siteTitle"></h1>
   <h3 id="subtitle"></h3>
 <hr id="miniline">
