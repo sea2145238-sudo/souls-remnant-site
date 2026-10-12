@@ -1,3 +1,6 @@
+* {
+  cursor: url('https://cdn.cursor-world.com/uploads/rainbow_pixel_default_9522fae65b_9a3e06eb9c.svg') 12 18, auto;
+}
 body {font-family:'Pixelify Sans'; margin:0; padding:0px;}
     .post { border-bottom:1px solid #444; padding:20px 0; }
     .post img { max-width:100%; display:block; margin-bottom:10px; }
@@ -23,7 +26,7 @@ body {font-family:'Pixelify Sans'; margin:0; padding:0px;}
 	border-right:1px solid white;
 	left:18vw;
 	height: 50vw;
-	background-color: #808080;
+	background-color: :#9E9A9A;
 }
  hr{
 	display: block;
@@ -37,10 +40,10 @@ body {font-family:'Pixelify Sans'; margin:0; padding:0px;}
     border-width: 1px
  }
 a {
-	position:auto;
+	position:relative;
 	text-decoration:none;
 	color:white;
-	z-index:1
+	cursor: url('https://cdn.cursor-world.com/uploads/rainbow_pixel_hover_c2b82ce8f6_140852cfae.svg') 12 18, auto;
 }
 .main{
 	color:white;
@@ -78,3 +81,19 @@ h1{
 p{
 	font:1.5vw 'Pixelify Sans'
 }
+li{
+	font:1.5vw 'Pixelify Sans'
+}
+#main{
+	background-color:#161717;
+	cursor: url('https://cdn.cursor-world.com/uploads/rainbow_pixel_hover_c2b82ce8f6_140852cfae.svg') 12 18, auto;
+}
+#exp{
+	background-color:#161717;
+	cursor: url('https://cdn.cursor-world.com/uploads/rainbow_pixel_hover_c2b82ce8f6_140852cfae.svg') 12 18, auto;
+}
+#download{
+	background-color:#161717;
+	cursor: url('https://cdn.cursor-world.com/uploads/rainbow_pixel_hover_c2b82ce8f6_140852cfae.svg') 12 18, auto;
+}
+
