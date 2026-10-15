@@ -2,26 +2,40 @@
   "siteTitle": "Soul's Remnant",
   "subtitle": "A story of echoes, memory, and fate",
 
-  "latestUpdate": "Fixing My Splelbade",
-  "lastUpdated": "2026-10-09",
+  "latestUpdate": "All Clear on Western Front",
+  "lastUpdated": "2026-10-05",
 
   "posts": [
     {
       "id":1,
+      "title": "All Clear on Western Front",
+      "date":"2026-10-15",
+      "image":"images/image5.png",
+      "content":"Jokes on you sucker, Im here."
+    },
+    {
+      "id":2,
+      "title": "WHY THE FU--",
+      "date":"2026-10-14",
+      "image":"images/image4.png",
+      "content":"CURSES! The server has killed me once again!"
+    },
+    {
+      "id":3,
       "title": "Fixing My Splelbade",
       "date":"2026-10-09",
       "image":"images/image3.png",
       "content":"Understandable? Not really. Do I want to try and understand it, this divine knowledge coming from the almighty Xan? NOPE."
     },
     {
-      "id":2,
+      "id":4,
       "title":"Just Playing Games",
       "date":"2026-10-08",
       "image":"images/image2.png",
       "content":"Just playing the Abyss Trial, with me bestie CRITUS. We died on floor 49, because of the boss having 16,000,000 HP TwT."
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Welcome!",
       "date": "2026-10-7",
       "image": "images/background.png",
